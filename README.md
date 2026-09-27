@@ -162,7 +162,7 @@ Then run:
 python visualization.py
 ```
 
-For the group maps, parcel-wise correlations are averaged across participants in Fisher-z space and transformed back to Pearson \(r\) for visualization.
+For the group maps, parcel-wise correlations are averaged across participants in Fisher-z space and transformed back to Pearson $r$ for visualization.
 
 ## Contact Information
 
