@@ -117,7 +117,7 @@ The model definitions are in `models/`. Trained checkpoints used for the reporte
 Choose the model at the top of the script:
 
 ```python
-MODEL_TYPE = "seq2seq_hybrid"  # seq2one | seq2seq_individual | seq2seq_hybrid | seq2seq_shared
+MODEL_TYPE = "seq2seq_hybrid"  # seq2one/seq2seq_individual/seq2seq_hybrid/seq2seq_shared
 ```
 
 Then run:
@@ -152,8 +152,8 @@ Whole-brain prediction maps can be generated with `visualization.py`.
 Choose the model and test set:
 
 ```python
-MODEL_TYPE = "seq2seq_hybrid"  # seq2one | seq2seq_individual | seq2seq_hybrid | seq2seq_shared
-MODE = "friends"               # friends | movies
+MODEL_TYPE = "seq2seq_hybrid"  # seq2one/seq2seq_individual/seq2seq_hybrid/seq2seq_shared
+MODE = "friends"               # friends/movies
 ```
 
 Then run:
@@ -163,3 +163,7 @@ python visualization.py
 ```
 
 For the group maps, parcel-wise correlations are averaged across participants in Fisher-z space and transformed back to Pearson \(r\) for visualization.
+
+## Contact Information
+
+Please feel free to reach out with any questions or inquiries at heqianyi0926@gmail.com.
